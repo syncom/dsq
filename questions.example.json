@@ -1,0 +1,6 @@
+[
+  {"id": "overview", "prompt": "Briefly describe the product and who it is for."},
+  {"id": "strengths", "prompt": "What works well today?"},
+  {"id": "problems", "prompt": "What are the biggest problems or risks you see?"},
+  {"id": "next-steps", "prompt": "What should happen next?"}
+]
