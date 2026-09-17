@@ -142,6 +142,8 @@ function renderQuestions(questions) {
 }
 
 function applyLatest(latest) {
+  $('submitter').textContent = `Submitter: ${latest.submitterId}`;
+  $('submitter').hidden = !latest.submitterId;
   for (const [id, editor] of state.editors) editor.setMarkdown(latest.answers[id] || '');
   state.dirty = false;
   if (latest.timestamp) {

@@ -61,6 +61,7 @@ body {
   line-height: 1.2;
   overflow-wrap: anywhere;
 }
+.submitter { margin: 0 0 2px; overflow-wrap: anywhere; }
 .subtitle { margin: 0; color: var(--muted); }
 
 .card {
