@@ -20,7 +20,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"dsq/internal/storage"
+	"github.com/syncom/dsq/internal/storage"
 )
 
 var (

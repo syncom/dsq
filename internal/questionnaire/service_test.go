@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"dsq/internal/storage"
+	"github.com/syncom/dsq/internal/storage"
 )
 
 var pngBytes = append([]byte("\x89PNG\r\n\x1a\n"), bytes.Repeat([]byte{0}, 64)...)
