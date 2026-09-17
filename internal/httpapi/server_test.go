@@ -13,8 +13,8 @@ import (
 	"testing"
 	"testing/fstest"
 
-	"dsq/internal/questionnaire"
-	"dsq/internal/storage"
+	"github.com/syncom/dsq/internal/questionnaire"
+	"github.com/syncom/dsq/internal/storage"
 )
 
 const header = "X-Remote-User"

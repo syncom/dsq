@@ -11,11 +11,11 @@ import (
 	"syscall"
 	"time"
 
-	"dsq/internal/config"
-	"dsq/internal/httpapi"
-	"dsq/internal/questionnaire"
-	"dsq/internal/storage"
-	"dsq/web"
+	"github.com/syncom/dsq/internal/config"
+	"github.com/syncom/dsq/internal/httpapi"
+	"github.com/syncom/dsq/internal/questionnaire"
+	"github.com/syncom/dsq/internal/storage"
+	"github.com/syncom/dsq/web"
 )
 
 func main() {

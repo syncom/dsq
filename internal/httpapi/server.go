@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"dsq/internal/questionnaire"
+	"github.com/syncom/dsq/internal/questionnaire"
 )
 
 const (

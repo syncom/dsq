@@ -4,6 +4,12 @@ A single-binary questionnaire service. It serves a web form for a fixed list
 of questions and stores each response as an immutable Markdown file; editing
 a response writes a new version. See [product-specs.md](product-specs.md).
 
+## Install
+
+```sh
+go install github.com/syncom/dsq@latest
+```
+
 ## Build and run
 
 ```sh
